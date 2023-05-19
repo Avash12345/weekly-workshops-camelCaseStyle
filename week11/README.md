@@ -1,4 +1,18 @@
-# COMP2110 Week XX
+import React from "react";
+import {SafeAreaView, StyleSheet} from 'react-native';
+import {Picker} from '@react-native-picker/picker'; 
 
-Briefly summarise the work you've done this week here.
+export default function App() {
+  return (
+  <SafeAreaView style={styles.container}>
 
+
+  </SafeAreaView>
+  );}
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#ffffcc'
+    },
+  });
